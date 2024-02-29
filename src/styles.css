@@ -1,11 +1,68 @@
-.App {
+:root {
+  margin: 0;
+  background-color: #292929;
+  color: white;
   font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+  margin: 0;
+}
 .App h1 {
   text-align: center;
 }
 
 .App li {
   padding-bottom: 15px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+.dashboard__title {
+  text-align: center;
+}
+.dashboard__moviesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  gap: 0 15px;
+  list-style-type: none;
+}
+
+.movie__container {
+  flex: 0 13%;
+  margin-bottom: 15px;
+}
+
+.movie__ImageContainer {
+  width: 200px;
+  height: 400px;
+}
+
+/* @media screen and (320<= width<=675) {
+  .dashboard__moviesContainer {
+    flex-direction: column;
+  }
+} */
+.dashboard__banner {
+  background-color: #333333;
+  max-width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 2rem 0;
+}
+
+.movie__Image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.movie__title {
+  padding: 0;
+  margin: 0;
 }
