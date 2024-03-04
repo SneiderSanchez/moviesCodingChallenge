@@ -27,31 +27,19 @@ body {
 .dashboard__moviesContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0;
   padding: 0;
-  gap: 0 15px;
+  gap: 1.5rem;
   list-style-type: none;
 }
 
 .movie__container {
-  flex: 0 13%;
-  margin-bottom: 15px;
+  width: 300px;
 }
 
-.movie__ImageContainer {
-  width: 200px;
-  height: 400px;
-}
-
-/* @media screen and (320<= width<=675) {
-  .dashboard__moviesContainer {
-    flex-direction: column;
-  }
-} */
 .dashboard__banner {
   background-color: #333333;
-  max-width: 100%;
   text-align: center;
   padding: 10px;
   margin: 2rem 0;
