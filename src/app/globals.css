@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  margin: 15px 0;
+  background-color: #292929;
+  color: white;
+  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
