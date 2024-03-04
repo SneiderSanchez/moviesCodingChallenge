@@ -9,47 +9,31 @@
 body {
   margin: 0;
 }
-.App h1 {
-  text-align: center;
-}
 
-.App li {
-  padding-bottom: 15px;
-}
-
-.dashboard {
-  display: flex;
-  flex-direction: column;
-}
 .dashboard__title {
   text-align: center;
 }
-.dashboard__moviesContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  gap: 1.5rem;
-  list-style-type: none;
-}
-
-.movie__container {
-  width: 300px;
-}
 
 .dashboard__banner {
-  background-color: #333333;
   text-align: center;
-  padding: 10px;
-  margin: 2rem 0;
+  background-color: #333333;
+  padding: 0.7rem;
+  margin: 0;
+}
+
+.dashboard__moviesContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem 1.5rem;
+  list-style-type: none;
+  padding: 0 1rem;
 }
 
 .movie__Image {
-  object-fit: cover;
   width: 100%;
   height: 100%;
 }
+
 .movie__title {
   padding: 0;
   margin: 0;
