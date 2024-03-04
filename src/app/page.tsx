@@ -1,3 +1,1 @@
-export default function App() {
-  return <MoviesDashboard />;
-}
+export default function App() {}
